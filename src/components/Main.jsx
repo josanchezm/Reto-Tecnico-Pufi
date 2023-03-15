@@ -88,7 +88,7 @@ export default function Main() {
             <section className='text-center py-20'>
                 <p className='text-gray-300 text-lg font-normal'>INSTAGRAM</p>
                 <p className='text-5xl pb-20'>#ESPUFI</p>
-                <div className='grid grid-cols-3 gap-[1px] w-[35%] mx-auto pb-[100px]'>
+                <div className='grid grid-cols-3 gap-[1px] w-[60%] xl:w-[35%] mx-auto pb-[100px]'>
                     <img src={umbrellaPair} alt="umbrella pair" className='w-full h-full'/>
                     <img src={shoppingCartFruits} alt="shopping cart fruits" className='w-full h-full'/>
                     <img src={beachBlueSofa} alt="beach blue sofa" className='w-full h-full'/>
