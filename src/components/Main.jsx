@@ -27,9 +27,10 @@ export default function Main() {
         <main>
             {/* Estructura de la grid principal del main y sus estilos */}
             <ul className="grid grid-cols-2 grid-rows-4 place-items-center">
-                <li className="grid place-content-center w-full h-full lg:h-[75vh] md:h-[50vh] bg-no-repeat bg-cover" style={ {backgroundImage: `url(${bgUmbrellas})`} }>
-                    <div className='w-full h-full bg-black opacity-30'></div>
-                    <button className="px-1 py-3 bg-transparent mx-auto border-2 rounded-none border-white w-[130px] mx-aut font-semibold text-base text-white">SHOP</button>
+                <li className='w-full h-full lg:h-[75vh] bg-no-repeat bg-cover' style={ {backgroundImage: `url(${bgUmbrellas})`}}>
+                        <div className='grid place-content-center w-full h-full bg-black opacity-50'>
+                            <button className="px-1 py-3 bg-transparent border-2 rounded-none border-white w-[130px] font-semibold text-base text-white">SHOP</button>  
+                        </div>  
                 </li>
                 <li className='flex flex-col justify-center items-center gap-8'>
                     <img src={orangeUmbrella} className='w-[125px] h-[125px]' alt="orange umbrella" />
@@ -53,11 +54,11 @@ export default function Main() {
                     </div>
                 </li>
                 <li className='w-full h-full bg-no-repeat bg-cover' style={ {backgroundImage: `url(${beachSofa})`} }>
-                    <div className='w-full h-full bg-black opacity-30'></div>
+                    <div className='w-full h-full bg-black opacity-40'></div>
                 </li>
 
                 <li className='w-full h-full bg-no-repeat bg-cover' style={ {backgroundImage: `url(${shoppingCart})`} }>
-                    <div className='w-full h-full bg-black opacity-30'></div>
+                    <div className='w-full h-full bg-black opacity-40'></div>
                 </li>
                 <li className='flex flex-col justify-center items-center gap-8'>
                     <img src={shoppingCartSmall} className='w-[175px] h-[175px]' alt="Shopping cart" />
@@ -81,7 +82,7 @@ export default function Main() {
                     </div>
                 </li>
                 <li className='w-full h-full bg-no-repeat bg-cover' style={ {backgroundImage: `url(${pufiNap})`} }>
-                    <div className='w-full h-full bg-black opacity-30'></div>
+                    <div className='w-full h-full bg-black opacity-40'></div>
                 </li>
             </ul>
             {/* Seccion de grid pequeña y formulario de Newsletter con validación de correo electrónico */}
