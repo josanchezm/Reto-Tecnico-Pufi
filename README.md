@@ -4,4 +4,4 @@ En este repositorio se encuentra el reto tecnico desarrollado para IT Globers de
 
 La pagina cuenta con la maquetacion de la interfaz principal de un E-Commerce, junto con un formulario con validacion de correo electronico 
 
-Despliegue de la aplicación en Netlify: https://relaxed-axolotl-a8c5b8.netlify.app/
+Despliegue de la aplicación en Netlify: https://reto-tecnico-pufi.netlify.app/
